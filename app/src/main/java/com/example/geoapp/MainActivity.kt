@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity(), CacheManager.CacheManagerCallback {
         findViewById<Button>(R.id.downloadBtn).setOnClickListener { startDownload() }
 
         offlineButton.setOnClickListener {
-            val goingOffline = map.isUsingDataConnection
+            val goingOffline = map.useDataConnection()
             map.setUseDataConnection(!goingOffline)
             offlineButton.text =
                 if (goingOffline) getString(R.string.offline_label_off)
