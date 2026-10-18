@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">GeoApp</string>
-    <string name="hello_world">Hello World!</string>
+    <string name="download_label">Download offline map</string>
+    <string name="offline_label_on">Go offline</string>
+    <string name="offline_label_off">Go online</string>
+    <string name="status_hint">Tap "Download offline map" once with internet, then use it offline.</string>
+    <string name="status_downloading">Preparing download…</string>
+    <string name="status_queued">Tiles to download: %1$d</string>
+    <string name="status_done">Download complete. You can now go offline.</string>
+    <string name="status_failed">Download finished with %1$d tile errors. Check internet and retry.</string>
 </resources>
